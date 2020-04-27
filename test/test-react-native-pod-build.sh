@@ -10,6 +10,11 @@ npm install react-native-cli@2.0.1 --save
 cd MyProject61
 npm install ../../bugsnag-react-native-*.tgz --save
 cd ios
+
+# Lint our podspec for errors
+pod spec lint BugsnagReactNative.podspec
+
+# Install library using Cocoapods
 pod install
 
 xcodebuild -workspace MyProject61.xcworkspace \
