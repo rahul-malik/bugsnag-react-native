@@ -1,6 +1,13 @@
 Changelog
 =========
 
+## 2.23.8
+
+### Bug fixes
+
+* Fix syntax error in Podspec when specifying multiple public_header_paths
+  [#453](https://github.com/bugsnag/bugsnag-react-native/pull/453)
+
 ## 2.23.7 (2020-04-07)
 
 ### Bug fixes
